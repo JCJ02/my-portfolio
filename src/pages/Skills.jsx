@@ -28,10 +28,10 @@ const Skills = () => {
 
                     <p className="font-poppins text-xs md:text-md lg:text-lg text-[#222831] dark:text-[#EEEEEE] self-start lg:self-center"><b className="text-[#222831] dark:text-[#76ABAE]">Technologies</b> I use for development</p>
 
-                    <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-10 2xl:gap-20 py-5 w-full">
+                    <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-5 md:gap-10 lg:gap-15 xl:gap-20 py-5 w-full">
 
-                        <div className="flex flex-col items-center gap-5 w-full">
-                            <div className="flex flex-col items-start gap-1 w-full">
+                        <div className="flex flex-col items-center gap-5 md:gap-10 lg:gap-15 xl:gap-20 w-full">
+                            <div className="flex flex-col items-start gap-5 w-full">
                                 <h1 className="font-poppins text-sm md:text-md lg:text-lg text-[#76ABAE]">Programming Languages</h1>
                                 <div className="flex items-center gap-5 w-full">
                                     <TooltipProvider>
@@ -134,7 +134,7 @@ const Skills = () => {
                             </div>
                         </div>
 
-                        <div className="flex flex-col items-center gap-5 w-full">
+                        <div className="flex flex-col items-center gap-5 md:gap-10 lg:gap-15 xl:gap-20 w-full">
                             <div className="flex flex-col items-start gap-5 w-full">
                                 <h1 className="font-poppins text-sm md:text-md lg:text-lg text-[#76ABAE]">Databases</h1>
                                 <div className="flex items-center gap-5 w-full">
