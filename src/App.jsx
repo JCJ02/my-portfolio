@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./layouts/Footer";
 import Home from "./pages/Home";
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   const [theme, setTheme] = useState(false);
@@ -24,6 +25,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
+      <ToastContainer />
     </>
   )
 }
