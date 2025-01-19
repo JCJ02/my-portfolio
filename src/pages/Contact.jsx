@@ -34,7 +34,7 @@ const Contact = () => {
                     });
                     console.log('SUCCESS!');
 
-                    // RESET FORM FIELDS AFTER SUCCESSFULLY SENDING EMAIL
+                    // RESET FORM FIELDS
                     form.current.reset();
                 },
                 (error) => {
@@ -50,6 +50,9 @@ const Contact = () => {
                         transition: Bounce,
                     });
                     console.log('FAILED...', error.text);
+
+                    // RESET FORM FIELDS
+                    form.current.reset();
                 },
             );
 
