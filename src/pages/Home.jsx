@@ -22,7 +22,7 @@ const Home = () => {
                             ]}
                             wrapper='h1'
                             speed={50}
-                            className='font-poppins font-extrabold text-xl md:text-2xl lg:text-3xl text-[#76ABAE] text-center'
+                            className='font-poppins font-extrabold text-xl md:text-2xl lg:text-3xl text-[#222831] dark:text-[#76ABAE] text-center'
                             repeat={Infinity}
                         />
                         <p className="font-poppins text-[#222831] dark:text-[#EEEEEE] text-sm md:text-md xl:text-lg text-justify">
