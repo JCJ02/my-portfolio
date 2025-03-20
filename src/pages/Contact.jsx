@@ -173,7 +173,7 @@ const Contact = () => {
                                     className="bg-white text-xs md:text-md lg:text-lg border-[#222831] w-full"
                                     name="sender_name"
                                 />
-                                {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
+                                {/* {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>} */}
                                 <Input
                                     type="email"
                                     placeholder="Email"
@@ -181,7 +181,7 @@ const Contact = () => {
                                     className="bg-white text-xs md:text-md lg:text-lg border-[#222831] w-full"
                                     name="sender_email"
                                 />
-                                {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
+                                {/* {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>} */}
                             </div>
                             <Textarea
                                 placeholder="Message"
@@ -189,7 +189,7 @@ const Contact = () => {
                                 className="bg-white text-xs md:text-md lg:text-lg border-[#222831] h-40 w-full"
                                 name="message"
                             />
-                            {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>}
+                            {/* {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>} */}
                             <Button
                                 className="bg-[#76ABAE] dark:bg-[#222831] xl:text-lg text-white py-1 px-5 rounded-sm"
                             >
