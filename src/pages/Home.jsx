@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import CV from "../assets/CV_Jacobe_John_Carlo.pdf";
+import resume from "../assets/Resume_Jacobe_John_Carlo.pdf";
 import PFP from "../assets/images/PFP.jpg";
 import Button from "@/components/Button";
 
@@ -13,7 +13,7 @@ const Home = () => {
                     <div className="flex flex-col items-center gap-4 lg:gap-5">
                         <TypeAnimation
                             sequence={[
-                                "Hey! I'm JC Jacobe, 21 years old.",
+                                "Hey! I'm JC Jacobe, 22 years old.",
                                 1000,
                                 '',
                                 500,
@@ -29,14 +29,14 @@ const Home = () => {
                             I specialize in building dynamic web applications using <b className="text-[#76ABAE]">React.js, Next.js</b>, and <b className="text-[#76ABAE]">Node.js (Express.js)</b> with experience in <b className="text-[#76ABAE]">MySQL</b>, <b className="text-[#76ABAE]">PostgreSQL</b>, <b className="text-[#76ABAE]">MSSQL</b>, and <b className="text-[#76ABAE]">MongoDB</b>, I focus on creating scalable, secure, and high-performance applications across frontend and backend.
                         </p>
                         <a
-                            href={CV}
-                            download={"CV_Jacobe_John_Carlo"}
+                            href={resume}
+                            download={"Resume_Jacobe_John_Carlo"}
                             target="_blank"
                         >
                             <Button
                                 className="bg-[#76ABAE] text-white py-2 px-5 duration-300 ease-in-out hover:scale-110 rounded-full"
                             >
-                                Download CV
+                                Download Resume
                             </Button>
                         </a>
                     </div>
