@@ -9,7 +9,7 @@ const About = () => {
                     <div className="flex flex-col justify-center items-start w-full">
                         <h1 className="font-poppins font-bold text-3xl 2xl:text-5xl text-[#222831] dark:text-[#EEEEEE]">About</h1>
                         <p className="font-poppins text-xs md:text-md xl:text-lg text-justify dark:text-[#EEEEEE] py-2 xl:py-5">
-                            Hi, I'm John Carlo P. Jacobe, a 21-year-old <b className="text-[#222831] dark:text-[#76ABAE]">Bachelor of Science in Information Technology</b> graduate in <b className="text-[#222831] dark:text-[#76ABAE]">Quezon City University</b>. I'm a versatile developer skilled in frontend, backend, and full-stack development.
+                            Hi, I'm John Carlo P. Jacobe, a 22-year-old <b className="text-[#222831] dark:text-[#76ABAE]">Bachelor of Science in Information Technology</b> graduate in <b className="text-[#222831] dark:text-[#76ABAE]">Quezon City University</b>. I'm a versatile developer skilled in frontend, backend, and full-stack development.
                         </p>
                         <p className="font-poppins text-xs md:text-md xl:text-lg text-justify dark:text-[#EEEEEE] py-2 xl:py-5">
                             I thrive on collaborating with other developers, constantly learning, and improving my skills to deliver innovative solutions.
