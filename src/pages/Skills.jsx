@@ -17,6 +17,8 @@ import { SiSwagger } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiMongodb } from "react-icons/si";
+import { SiFastapi } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 
 const Skills = () => {
@@ -74,6 +76,16 @@ const Skills = () => {
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
+                                    <TooltipProvider>
+                                        <Tooltip>
+                                            <TooltipTrigger>
+                                                <FaPython className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                                <label className="text-[#EEEEEE]">Python</label>
+                                            </TooltipContent>
+                                        </Tooltip>
+                                    </TooltipProvider>
                                 </div>
                             </div>
 
@@ -127,6 +139,16 @@ const Skills = () => {
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">Express.js</label>
+                                            </TooltipContent>
+                                        </Tooltip>
+                                    </TooltipProvider>
+                                    <TooltipProvider>
+                                        <Tooltip>
+                                            <TooltipTrigger>
+                                                <SiFastapi className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                                <label className="text-[#EEEEEE]">FastAPI</label>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
