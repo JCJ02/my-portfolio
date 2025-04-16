@@ -6,7 +6,7 @@ import Footer from "@/layouts/Footer";
 const NotFound = () => {
     return (
         <>
-            <div className="flex flex-col lg:flex-row justify-center items-center gap-5 px-5 2xl:px-0 h-[85vh] m-auto max-w-[1280px]">
+            <div className="flex flex-col lg:flex-row justify-center items-center gap-5 px-5 2xl:px-0 h-[85vh] m-auto min-h-screen max-w-[1280px]">
                 <img
                     className="w-[280px] md:w-[360px] lg:w-[480px]"
                     src={PNF}
