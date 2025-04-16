@@ -130,7 +130,7 @@ const Contact = () => {
 
     return (
         <>
-            <div className="bg-[#EEEEEE] dark:bg-[#222831] flex justify-center items-center transition-colors duration-200 h-screen w-full" id="contact">
+            <div className="bg-[#EEEEEE] dark:bg-[#222831] flex justify-center items-center transition-colors duration-200 min-h-screen w-full" id="contact">
                 <div className="flex flex-col items-center gap-10 md:gap-15 lg:gap-20 px-5 md:px-16 2xl:px-0 m-auto max-w-[1280px]">
                     <div className="flex flex-col items-start gap-1 w-full">
                         <TypeAnimation

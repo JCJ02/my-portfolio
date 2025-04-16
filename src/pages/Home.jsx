@@ -7,7 +7,7 @@ import Button from "@/components/Button";
 const Home = () => {
     return (
         <>
-            <div className="bg-[#EEEEEE] dark:bg-[#222831] flex justify-center items-center h-screen w-full transition-colors duration-200" id="home">
+            <div className="bg-[#EEEEEE] dark:bg-[#222831] flex justify-center items-center min-h-screen w-full transition-colors duration-200" id="home">
                 <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-8 xl:gap-24 m-auto max-w-[1280px] px-5 md:px-16 2xl:px-0">
                     <img className="h-[144px] w-[144px] md:h-[360px] md:w-[360px] xl:h-[480px] xl:w-[480px] rounded-full hover:border-4 lg:hover:border-8 border-[#222831] dark:border-[#EEEEEE] ease-in-out duration-150" src={PFP}></img>
                     <div className="flex flex-col items-center gap-4 lg:gap-5">

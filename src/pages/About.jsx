@@ -4,7 +4,7 @@ import LWS from "../assets/images/LWS.jpg";
 const About = () => {
     return (
         <>
-            <div className="bg-[#EEEEEE] dark:bg-[#222831] flex justify-center items-center transition-colors duration-200 h-screen w-full]" id="about">
+            <div className="bg-[#EEEEEE] dark:bg-[#222831] flex justify-center items-center transition-colors duration-200 min-h-screen w-full]" id="about">
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-5 md:gap-10 lg:gap-20 px-5 md:px-16 2xl:px-0 m-auto max-w-[1280px]">
                     <div className="flex flex-col justify-center items-start w-full">
                         <h1 className="font-poppins font-bold text-3xl 2xl:text-5xl text-[#222831] dark:text-[#EEEEEE]">About</h1>
