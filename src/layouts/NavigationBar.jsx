@@ -54,6 +54,17 @@ const NavigationBar = ({ switchTheme }) => {
                         <li className="font-inter text-xl text-[#222831] dark:text-[#EEEEEE] hover:text-[#76ABAE] dark:hover:text-[#76ABAE] cursor-pointer">
                             <Link
                                 className={({ isActive }) => isActive ? null : "font-inter text-xl text-[#76ABAE] dark:text-[#76ABAE] hover:text-[#76ABAE] dark:hover:text-[#76ABAE] cursor-pointer"}
+                                to={"experiences"}
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                            >
+                                Experiences
+                            </Link>
+                        </li>
+                        <li className="font-inter text-xl text-[#222831] dark:text-[#EEEEEE] hover:text-[#76ABAE] dark:hover:text-[#76ABAE] cursor-pointer">
+                            <Link
+                                className={({ isActive }) => isActive ? null : "font-inter text-xl text-[#76ABAE] dark:text-[#76ABAE] hover:text-[#76ABAE] dark:hover:text-[#76ABAE] cursor-pointer"}
                                 to={"projects"}
                                 spy={true}
                                 smooth={true}
@@ -99,6 +110,15 @@ const NavigationBar = ({ switchTheme }) => {
                                 onClick={handleMenu}
                             >
                                 Skills
+                            </Link>
+                        </li>
+                        <li className="font-inter text-[1.5rem] text-[#222831] dark:text-[#EEEEEE] cursor-pointer hover:text-[#76ABAE] dark:hover:text-[#76ABAE] pl-[.5rem]">
+                            <Link
+                                className={({ isActive }) => isActive ? null : "font-inter text-[1.5rem] text-[#76ABAE] dark:text-[#76ABAE] cursor-pointer hover:text-[#76ABAE] dark:hover:text-[#76ABAE]"}
+                                to={"experiences"} spy={true} smooth={true} duration={500}
+                                onClick={handleMenu}
+                            >
+                                Experiences
                             </Link>
                         </li>
                         <li className="font-inter text-[1.5rem] text-[#222831] dark:text-[#EEEEEE] cursor-pointer hover:text-[#76ABAE] dark:hover:text-[#76ABAE] pl-[.5rem]">
