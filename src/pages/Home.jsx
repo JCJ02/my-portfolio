@@ -3,8 +3,10 @@ import { TypeAnimation } from "react-type-animation";
 import resume from "../assets/Resume_Jacobe_John_Carlo.pdf";
 import PFP from "../assets/images/PFP.jpg";
 import Button from "@/components/Button";
+import { calculateAge } from "@/utilities/calculateAge";
 
 const Home = () => {
+    const age = calculateAge('2003-02-02');
     return (
         <>
             <div className="bg-[#EEEEEE] dark:bg-[#222831] flex justify-center items-center min-h-screen w-full transition-colors duration-200" id="home">
@@ -13,7 +15,7 @@ const Home = () => {
                     <div className="flex flex-col items-center gap-4 lg:gap-5">
                         <TypeAnimation
                             sequence={[
-                                "Hey! I'm JC Jacobe, 22 years old.",
+                                `Hey! I'm JC Jacobe, ${age} years old.`,
                                 1000,
                                 '',
                                 500,
