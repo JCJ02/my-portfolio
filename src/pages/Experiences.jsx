@@ -10,9 +10,13 @@ const Experiences = () => {
     return (
         <>
             <div className="bg-[#EEEEEE] dark:bg-[#222831] flex flex-col justify-center items-center gap-5 transition-colors duration-200 min-h-screen w-full" id="experiences">
-                <h1 className="font-poppins font-bold text-3xl 2xl:text-5xl text-[#222831] dark:text-[#EEEEEE]">Experiences</h1>
 
                 <div className="flex flex-col justify-start items-start gap-12 px-5 md:px-16 2xl:px-0 py-6 mx-auto max-w-[1280px]">
+
+                    <div className="flex flex-col justify-start items-start lg:items-center gap-2 w-full">
+                        <h1 className="font-poppins font-bold text-3xl 2xl:text-5xl text-[#222831] dark:text-[#EEEEEE]">Experiences</h1>
+                        <p className="font-poppins text-xs md:text-md lg:text-lg text-[#222831] dark:text-[#EEEEEE] self-start lg:self-center">This is my <b className="text-[#222831] dark:text-[#76ABAE]">experiences</b>, a collection of moments and events that have shaped who I am.</p>
+                    </div>
 
                     {/* 1st EXPERIENCE */}
                     <div className="flex justify-center items-start gap-5 w-full">
@@ -46,7 +50,7 @@ const Experiences = () => {
                                         <label className="font-poppins text-xs md:text-md xl:text-lg text-justify italic dark:text-[#EEEEEE]">November 2024 - February 2025</label>
                                     </div>
                                     <li className="text-[#222831] dark:text-[#EEEEEE]">
-                                        <label className="font-poppins text-sm md:text-md xl:text-lg text-justify dark:text-[#EEEEEE] py-2">Implemented frontend using React and Next.js for seamless API integration and user-friendly interface.</label>
+                                        <label className="font-poppins text-sm md:text-md xl:text-lg text-justify dark:text-[#EEEEEE] py-2">Implemented frontend using React.js and Next.js for seamless API integration and user-friendly interface.</label>
                                     </li>
                                 </div>
 
