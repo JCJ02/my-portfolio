@@ -42,8 +42,8 @@ const Experiences = () => {
                                 {/* 2nd POSITION */}
                                 <div className="flex flex-col justify-center items-start w-full">
                                     <div className="flex flex-col justify-center items-start w-full">
-                                        <h1 className="font-poppins font-bold text-sm md:text-md xl:text-lg text-[#222831] dark:text-[#EEEEEE]">November 2024 - February 2025</h1>
-                                        <label className="font-poppins text-xs md:text-md xl:text-lg text-justify italic dark:text-[#EEEEEE]">Frontend Developer - Intern</label>
+                                        <h1 className="font-poppins font-bold text-sm md:text-md xl:text-lg text-[#222831] dark:text-[#EEEEEE]">Frontend Developer - Intern</h1>
+                                        <label className="font-poppins text-xs md:text-md xl:text-lg text-justify italic dark:text-[#EEEEEE]">November 2024 - February 2025</label>
                                     </div>
                                     <li className="text-[#222831] dark:text-[#EEEEEE]">
                                         <label className="font-poppins text-sm md:text-md xl:text-lg text-justify dark:text-[#EEEEEE] py-2">Implemented frontend using React and Next.js for seamless API integration and user-friendly interface.</label>
@@ -53,8 +53,8 @@ const Experiences = () => {
                                 {/* 1st POSITION */}
                                 <div className="flex flex-col justify-center items-start w-full">
                                     <div className="flex flex-col justify-center items-start w-full">
-                                        <h1 className="font-poppins font-bold text-sm md:text-md xl:text-lg text-[#222831] dark:text-[#EEEEEE]">September 2024 - February 2025</h1>
-                                        <label className="font-poppins text-xs md:text-md xl:text-lg text-justify italic dark:text-[#EEEEEE]">Backend Developer - Intern</label>
+                                        <h1 className="font-poppins font-bold text-sm md:text-md xl:text-lg text-[#222831] dark:text-[#EEEEEE]">Backend Developer - Intern</h1>
+                                        <label className="font-poppins text-xs md:text-md xl:text-lg text-justify italic dark:text-[#EEEEEE]">September 2024 - February 2025</label>
                                     </div>
                                     <li className="text-[#222831] dark:text-[#EEEEEE]">
                                         <label className="font-poppins text-sm md:text-md xl:text-lg text-justify dark:text-[#EEEEEE] py-2">Developed RESTful APIs using Node.js (Express.js) and Python (FastAPI). Proficient in leveraging Prisma ORM and SQLAlchemy ORM for efficient database integration across PostgreSQL, MySQL, MSSQL, and MongoDB. Expanding skills in AI development with Python.</label>
