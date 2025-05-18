@@ -170,7 +170,7 @@ const Contact = () => {
                                     type="text"
                                     placeholder="Name"
                                     required={true}
-                                    className="bg-white text-xs md:text-md lg:text-lg border-[#222831] w-full"
+                                    className="bg-white text-xs md:text-md lg:text-lg border-none w-full"
                                     name="sender_name"
                                 />
                                 {/* {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>} */}
@@ -178,7 +178,7 @@ const Contact = () => {
                                     type="email"
                                     placeholder="Email"
                                     required={true}
-                                    className="bg-white text-xs md:text-md lg:text-lg border-[#222831] w-full"
+                                    className="bg-white text-xs md:text-md lg:text-lg border-none w-full"
                                     name="sender_email"
                                 />
                                 {/* {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>} */}
@@ -186,7 +186,7 @@ const Contact = () => {
                             <Textarea
                                 placeholder="Message"
                                 required={true}
-                                className="bg-white text-xs md:text-md lg:text-lg border-[#222831] h-40 w-full"
+                                className="bg-white text-xs md:text-md lg:text-lg border-none h-40 w-full"
                                 name="message"
                             />
                             {/* {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>} */}
