@@ -1,24 +1,5 @@
 import React from "react";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { SiNextdotjs } from "react-icons/si";
-import { FaNode } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
-import { SiPrisma } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { FaGitAlt } from "react-icons/fa";
-import { SiPostman } from "react-icons/si";
-import { VscVscode } from "react-icons/vsc";
-import { FaGithub } from "react-icons/fa";
-import { SiSwagger } from "react-icons/si";
-import { SiMysql } from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { SiMongodb } from "react-icons/si";
-import { SiFastapi } from "react-icons/si";
-import { FaPython } from "react-icons/fa";
+import { techIcons } from "@/utilities/techIcons";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 
 const Skills = () => {
@@ -42,7 +23,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <FaHtml5 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.languages[0], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">HTML5</label>
@@ -52,7 +35,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <FaCss3Alt className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.languages[1], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">CSS3</label>
@@ -62,7 +47,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <IoLogoJavascript className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.languages[2], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">JavaScript</label>
@@ -72,7 +59,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <SiTypescript className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.languages[3], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">TypeScript</label>
@@ -82,7 +71,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <FaPython className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.languages[4], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">Python</label>
@@ -98,7 +89,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <FaReact className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.frontend[0], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">React.js</label>
@@ -108,7 +101,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <SiNextdotjs className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.frontend[1], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">Next.js</label>
@@ -118,7 +113,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <RiTailwindCssFill className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.frontend[2], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">Tailwind CSS</label>
@@ -128,7 +125,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <FaNode className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.backend[0], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">Node.js</label>
@@ -138,7 +137,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <SiExpress className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.backend[1], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">Express.js</label>
@@ -148,7 +149,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <SiFastapi className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.backend[2], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">FastAPI</label>
@@ -166,7 +169,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <SiMysql className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.database[0], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">MySQL</label>
@@ -176,7 +181,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <BiLogoPostgresql className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.database[1], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">PostgreSQL</label>
@@ -186,7 +193,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <SiMongodb className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.database[2], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">MongoDB</label>
@@ -202,7 +211,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <FaGitAlt className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.tools[0], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">Git</label>
@@ -212,7 +223,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <SiPostman className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.tools[1], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">Postman</label>
@@ -222,7 +235,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <VscVscode className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.tools[2], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">VSCode</label>
@@ -232,7 +247,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <FaGithub className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.tools[3], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">GitHub</label>
@@ -242,7 +259,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <SiSwagger className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.tools[4], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">Swagger</label>
@@ -252,7 +271,9 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                <SiPrisma className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]" />
+                                                {React.createElement(techIcons.tools[5], {
+                                                    className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                })}
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">Prisma</label>
