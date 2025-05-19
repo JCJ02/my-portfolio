@@ -6,9 +6,29 @@ export const ProjectsData = [
     {
         id: 1,
         projectName: "POWERWALK Web Application",
-        projectDescription: "",
+        projectDescription: "The main objective of the capstone project is to develop “POWERWALK”: Converting Foot Traffic into Sustainable Energy, Utilizing Piezoelectric Transducers with RFID and Data Visualization for Efficient Power Generation.",
         projectImage: projectOne,
-        keyFeature: "",
+        keyFeature: {
+            featureOne: [
+                "Admin Account",
+                "Secure login for administrators to manage system functoins."
+            ],
+            featureTwo: [
+                "Dashboard",
+                "Monitor battery percentage.",
+                "Track total electricity generated and consumed."
+            ],
+            featureThree: [
+                "Data Visualization",
+                "Daily Usage Chart: Displays the number of students who used the POWERWALK charging station.",
+                "Electricity Meter Chart: Shows daily electricity generation and consumption.",
+                "Report Generation: Filter by date to generate reports on electricity usage, student activity, and overall summaries."
+            ],
+            featureFour: [
+                "RFID Integration",
+                "Register RFID (School ID): Only users with registered RFID cards can access and use the POWERWALK charging station."
+            ]
+        },
         techStack: {
             frontend: [
                 techIcons.languages[3],
@@ -25,8 +45,8 @@ export const ProjectsData = [
             ]
         },
         urls: {
-            frontendUrl: "",
-            backendUrl: "",
+            frontendUrl: "https://github.com/JCJ02/power-walk-fe",
+            backendUrl: "https://github.com/JCJ02/power-walk-api",
             demoUrl: ""
         }
     },
@@ -35,7 +55,26 @@ export const ProjectsData = [
         projectName: "LWS Invoice Web Application",
         projectDescription: "",
         projectImage: projectTwo,
-        keyFeatures: "",
+        keyFeature: {
+            featureOne: [
+                "Admin Account",
+                "Secure login for administrators to manage system functionalities."
+            ],
+            featureTwo: [
+                "Client Management",
+                "Create, read, update, and delete client information.",
+            ],
+            featureThree: [
+                "Invoice Management",
+                "Create, read, update, and delete client invoices.",
+                "Automatically calculate overdue amounts, draft totals, and overall invoice totals.",
+            ],
+            featureFour: [
+                "Recurring Invoices",
+                "Automate invoice creation on a recurring schedule.",
+                "Generate receipts for client invoices."
+            ]
+        },
         techStack: {
             frontend: [
                 techIcons.languages[3],
@@ -52,8 +91,8 @@ export const ProjectsData = [
             ]
         },
         urls: {
-            frontendUrl: "",
-            backendUrl: "",
+            frontendUrl: "https://github.com/JCJ02/invoice-fe",
+            backendUrl: "https://github.com/JCJ02/invoice-api",
             demoUrl: ""
         }
     }
