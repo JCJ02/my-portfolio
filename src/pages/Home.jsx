@@ -32,7 +32,7 @@ const Home = () => {
                         </p>
                         <a
                             href={resume}
-                            download={"Resume_Jacobe_John_Carlo"}
+                            rel={"Resume_Jacobe_John_Carlo"}
                             target="_blank"
                         >
                             <Button
