@@ -1,5 +1,5 @@
 import React from "react";
-import LWS from "../assets/images/LWS.jpg";
+import LWS from "../assets/images/pfp-with-awards.jpg";
 
 const About = () => {
     return (
