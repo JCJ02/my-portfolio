@@ -4,6 +4,7 @@ import Modal from "@/components/Modal";
 import { IoCloseSharp } from "react-icons/io5";
 import { TbSourceCode } from "react-icons/tb";
 import { Link } from "react-router-dom";
+import { FaAward } from "react-icons/fa6";
 
 const Projects = () => {
     const [isOpenProjec, setOpenProject] = useState(false);
@@ -173,6 +174,40 @@ const Projects = () => {
                                                 </div>
                                             )}
                                         </div>
+
+                                        {/* AWARDS */}
+                                        {isSelectedProject?.awards && (
+                                            <>
+                                                <label className="font-poppins font-semibold pt-4 text-xs xl:text-sm text-justify text-[#76ABAE]">
+                                                    Awards:
+                                                </label>
+                                                <div className="flex flex-col items-start w-full">
+                                                    {/* 1ST AWARD */}
+                                                    {isSelectedProject?.awards?.bestResearchPaperAward && (
+                                                        <div className="flex items-center gap-1">
+                                                            <FaAward />
+                                                            <label className="font-poppins font-medium text-xs xl:text-sm">{isSelectedProject.awards.bestResearchPaperAward}</label>
+                                                        </div>
+                                                    )}
+
+                                                    {/* 2ND AWARD */}
+                                                    {isSelectedProject?.awards?.capstoneOfTheYearAward && (
+                                                        <div className="flex items-center gap-1">
+                                                            <FaAward />
+                                                            <label className="font-poppins font-medium text-xs xl:text-sm">{isSelectedProject.awards.capstoneOfTheYearAward}</label>
+                                                        </div>
+                                                    )}
+
+                                                    {/* 3RD AWARD */}
+                                                    {isSelectedProject?.awards?.programmerOfTheYearAward && (
+                                                        <div className="flex items-center gap-1">
+                                                            <FaAward />
+                                                            <label className="font-poppins font-medium text-xs xl:text-sm">{isSelectedProject.awards.programmerOfTheYearAward}</label>
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            </>
+                                        )}
 
                                     </div>
                                     <img
