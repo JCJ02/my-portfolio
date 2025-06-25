@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import resume from "../assets/Resume_Jacobe_John_Carlo.pdf";
-import PFP from "../assets/images/PFP.jpg";
+import PFP from "../assets/images/my-graduation-picture.jpg";
 import Button from "@/components/Button";
 import { calculateAge } from "@/utilities/calculateAge";
 
