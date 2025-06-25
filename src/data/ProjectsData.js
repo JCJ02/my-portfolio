@@ -48,6 +48,11 @@ export const ProjectsData = [
             frontendUrl: "https://github.com/JCJ02/power-walk-fe",
             backendUrl: "https://github.com/JCJ02/power-walk-api",
             demoUrl: ""
+        },
+        awards: {
+            bestResearchPaperAward: "Best Research Paper (Hardware Category) Award",
+            capstoneOfTheYearAward: "Capstone of the Year Award",
+            programmerOfTheYearAward: "Programmer of the Year Award"
         }
     },
     {
