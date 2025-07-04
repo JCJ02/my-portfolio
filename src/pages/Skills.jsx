@@ -329,7 +329,7 @@ const Skills = () => {
                                                 )}
                                             </TooltipTrigger>
                                             <TooltipContent>
-                                                <label className="text-[#EEEEEE]">Microsoft SQL Server</label>
+                                                <label className="text-[#EEEEEE]">Visual Studio 2022</label>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
