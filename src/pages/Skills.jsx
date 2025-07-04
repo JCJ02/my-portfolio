@@ -1,6 +1,7 @@
 import React from "react";
 import { techIcons } from "@/utilities/techIcons";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import Devicon from "@/components/Devicon";
 
 const Skills = () => {
     return (
@@ -77,6 +78,22 @@ const Skills = () => {
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <label className="text-[#EEEEEE]">Python</label>
+                                            </TooltipContent>
+                                        </Tooltip>
+                                    </TooltipProvider>
+                                    <TooltipProvider>
+                                        <Tooltip>
+                                            <TooltipTrigger>
+                                                {typeof techIcons.languages[5] === "string" ? (
+                                                    <Devicon name={techIcons.languages[5]} className={"text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"} />
+                                                ) : (
+                                                    React.createElement(techIcons.languages[5], {
+                                                        className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                    })
+                                                )}
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                                <label className="text-[#EEEEEE]">C#</label>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
@@ -158,6 +175,22 @@ const Skills = () => {
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
+                                    <TooltipProvider>
+                                        <Tooltip>
+                                            <TooltipTrigger>
+                                                {typeof techIcons.backend[3] === "string" ? (
+                                                    <Devicon name={techIcons.backend[3]} className={"text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"} />
+                                                ) : (
+                                                    React.createElement(techIcons.backend[3], {
+                                                        className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                    })
+                                                )}
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                                <label className="text-[#EEEEEE]">ASP.NET Core Web API</label>
+                                            </TooltipContent>
+                                        </Tooltip>
+                                    </TooltipProvider>
                                 </div>
                             </div>
                         </div>
@@ -193,7 +226,23 @@ const Skills = () => {
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                {React.createElement(techIcons.database[2], {
+                                                {typeof techIcons.database[2] === "string" ? (
+                                                    <Devicon name={techIcons.database[2]} className={"text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"} />
+                                                ) : (
+                                                    React.createElement(techIcons.database[2], {
+                                                        className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                    })
+                                                )}
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                                <label className="text-[#EEEEEE]">Microsoft SQL Server</label>
+                                            </TooltipContent>
+                                        </Tooltip>
+                                    </TooltipProvider>
+                                    <TooltipProvider>
+                                        <Tooltip>
+                                            <TooltipTrigger>
+                                                {React.createElement(techIcons.database[3], {
                                                     className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
                                                 })}
                                             </TooltipTrigger>
@@ -228,7 +277,7 @@ const Skills = () => {
                                                 })}
                                             </TooltipTrigger>
                                             <TooltipContent>
-                                                <label className="text-[#EEEEEE]">Postman</label>
+                                                <label className="text-[#EEEEEE]">GitHub</label>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
@@ -240,7 +289,7 @@ const Skills = () => {
                                                 })}
                                             </TooltipTrigger>
                                             <TooltipContent>
-                                                <label className="text-[#EEEEEE]">VSCode</label>
+                                                <label className="text-[#EEEEEE]">Postman</label>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
@@ -252,7 +301,7 @@ const Skills = () => {
                                                 })}
                                             </TooltipTrigger>
                                             <TooltipContent>
-                                                <label className="text-[#EEEEEE]">GitHub</label>
+                                                <label className="text-[#EEEEEE]">Swagger</label>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
@@ -264,14 +313,30 @@ const Skills = () => {
                                                 })}
                                             </TooltipTrigger>
                                             <TooltipContent>
-                                                <label className="text-[#EEEEEE]">Swagger</label>
+                                                <label className="text-[#EEEEEE]">Visual Studio Code</label>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger>
-                                                {React.createElement(techIcons.tools[5], {
+                                                {typeof techIcons.tools[5] === "string" ? (
+                                                    <Devicon name={techIcons.tools[5]} className={"text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"} />
+                                                ) : (
+                                                    React.createElement(techIcons.tools[5], {
+                                                        className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
+                                                    })
+                                                )}
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                                <label className="text-[#EEEEEE]">Microsoft SQL Server</label>
+                                            </TooltipContent>
+                                        </Tooltip>
+                                    </TooltipProvider>
+                                    <TooltipProvider>
+                                        <Tooltip>
+                                            <TooltipTrigger>
+                                                {React.createElement(techIcons.tools[6], {
                                                     className: "text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl text-[#222831] dark:text-[#EEEEEE]"
                                                 })}
                                             </TooltipTrigger>
