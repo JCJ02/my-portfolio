@@ -12,7 +12,8 @@ export const techIcons = {
         FaCss3Alt,
         IoLogoJavascript,
         SiTypescript,
-        FaPython
+        FaPython,
+        "csharp-plain",
     ],
     frontend: [
         FaReact,
@@ -23,10 +24,12 @@ export const techIcons = {
         FaNode,
         SiExpress,
         SiFastapi,
+        "dotnetcore-plain",
     ],
     database: [
         SiMysql,
         BiLogoPostgresql,
+        "microsoftsqlserver-plain",
         SiMongodb
     ],
     tools: [
@@ -35,6 +38,7 @@ export const techIcons = {
         SiPostman,
         SiSwagger,
         VscVscode,
+        "visualstudio-plain",
         SiPrisma
     ],
 };
