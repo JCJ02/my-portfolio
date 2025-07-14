@@ -98,10 +98,10 @@ const Experiences = () => {
                                     <Tooltip>
                                         <TooltipTrigger>
                                             {typeof techIcons.languages[5] === "string" ? (
-                                                <Devicon name={techIcons.languages[5]} className={"text-3xl md:text-2xl lg:text-2xl 2xl:text-2xl text-[#222831] dark:text-[#EEEEEE]"} />
+                                                <Devicon name={techIcons.languages[5]} className={"text-3xl text-[#222831] dark:text-[#EEEEEE]"} />
                                             ) : (
                                                 React.createElement(techIcons.languages[5], {
-                                                    className: "text-3xl md:text-2xl lg:text-2xl 2xl:text-2xl text-[#222831] dark:text-[#EEEEEE]"
+                                                    className: "text-3xl text-[#222831] dark:text-[#EEEEEE]"
                                                 })
                                             )}
                                         </TooltipTrigger>
@@ -114,10 +114,10 @@ const Experiences = () => {
                                     <Tooltip>
                                         <TooltipTrigger>
                                             {typeof techIcons.backend[3] === "string" ? (
-                                                <Devicon name={techIcons.backend[3]} className={"text-3xl md:text-2xl lg:text-2xl 2xl:text-2xl text-[#222831] dark:text-[#EEEEEE]"} />
+                                                <Devicon name={techIcons.backend[3]} className={"text-3xl text-[#222831] dark:text-[#EEEEEE]"} />
                                             ) : (
                                                 React.createElement(techIcons.backend[3], {
-                                                    className: "text-3xl md:text-2xl lg:text-2xl 2xl:text-2xl text-[#222831] dark:text-[#EEEEEE]"
+                                                    className: "text-3xl text-[#222831] dark:text-[#EEEEEE]"
                                                 })
                                             )}
                                         </TooltipTrigger>
@@ -130,10 +130,10 @@ const Experiences = () => {
                                     <Tooltip>
                                         <TooltipTrigger>
                                             {typeof techIcons.database[2] === "string" ? (
-                                                <Devicon name={techIcons.database[2]} className={"text-3xl md:text-2xl lg:text-2xl 2xl:text-2xl text-[#222831] dark:text-[#EEEEEE]"} />
+                                                <Devicon name={techIcons.database[2]} className={"text-3xl text-[#222831] dark:text-[#EEEEEE]"} />
                                             ) : (
                                                 React.createElement(techIcons.database[2], {
-                                                    className: "text-3xl md:text-2xl lg:text-2xl 2xl:text-2xl text-[#222831] dark:text-[#EEEEEE]"
+                                                    className: "text-3xl text-[#222831] dark:text-[#EEEEEE]"
                                                 })
                                             )}
                                         </TooltipTrigger>
