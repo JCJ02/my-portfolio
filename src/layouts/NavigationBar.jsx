@@ -16,7 +16,7 @@ const NavigationBar = ({ switchTheme }) => {
     return (
         <>
             <header
-                className="backdrop-blur-sm fixed px-[5%] top-0 w-full"
+                className="backdrop-blur-sm fixed px-[5%] top-0 w-full z-20"
             >
                 <nav
                     className="flex justify-between items-center m-auto py-5 max-w-[1280px]"

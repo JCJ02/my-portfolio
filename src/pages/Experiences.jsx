@@ -24,11 +24,11 @@ const Experiences = () => {
                     <div className="relative flex flex-col gap-20 w-full">
 
                         {/* Connection Line */}
-                        <div className="absolute top-5 left-[10px] md:left-[22px] h-[95%] border-l-4 border-[#222831] dark:border-[#EEEEEE] z-0"></div>
+                        <div className="absolute top-5 left-[8px] md:left-[16px] h-[95%] border-2 md:border-4 border-[#222831] dark:border-[#EEEEEE] z-0"></div>
 
                         {/* 2nd EXPERIENCE */}
                         <div className="flex justify-center items-start gap-5 w-full">
-                            <div className="bg-[#222831] dark:bg-[#EEEEEE] flex justify-center items-center h-6 w-6 md:h-12 md:w-12 rounded-full z-10">
+                            <div className="bg-[#222831] dark:bg-[#EEEEEE] flex justify-center items-center h-5 w-5 md:h-10 md:w-10 rounded-full z-10">
                                 <h1 className="font-poppins text-xs md:text-md lg:text-lg text-[#EEEEEE] dark:text-[#222831] font-bold text-center">2</h1>
                             </div>
                             <div className="flex flex-col justify-center items-start gap-2 w-full">
@@ -155,7 +155,7 @@ const Experiences = () => {
 
                         {/* 1st EXPERIENCE */}
                         <div className="flex justify-center items-start gap-5 w-full">
-                            <div className="bg-[#222831] dark:bg-[#EEEEEE] flex justify-center items-center h-6 w-6 md:h-12 md:w-12 rounded-full z-10">
+                            <div className="bg-[#222831] dark:bg-[#EEEEEE] flex justify-center items-center h-5 w-5 md:h-10 md:w-10 rounded-full z-10">
                                 <h1 className="font-poppins text-xs md:text-md lg:text-lg text-[#EEEEEE] dark:text-[#222831] font-bold text-center">1</h1>
                             </div>
                             <div className="flex flex-col justify-center items-start gap-2 w-full">
@@ -285,7 +285,7 @@ const Experiences = () => {
                         </div>
 
                         {/* NO EXPERIENCE */}
-                        <div className="bg-[#222831] dark:bg-[#EEEEEE] flex justify-center items-center h-6 w-6 md:h-12 md:w-12 rounded-full z-10">
+                        <div className="bg-[#222831] dark:bg-[#EEEEEE] flex justify-center items-center h-5 w-5 md:h-10 md:w-10 rounded-full z-10">
                             <h1 className="font-poppins text-xs md:text-md lg:text-lg text-[#EEEEEE] dark:text-[#222831] font-bold text-center">0</h1>
                         </div>
                     </div>
