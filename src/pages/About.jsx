@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                     <img
                         src={LWS}
-                        className="shadow-dark dark:shadow-light border-8 border-[#76ABAE] dark:border-[#EEEEEE] w-[280px] md:w-[360px] xl:w-[480px] h-[280px] md:h-[360px] xl:h-[480px]"
+                        className="shadow-dark dark:shadow-light border-8 border-[#76ABAE] dark:border-[#EEEEEE] w-[280px] xl:w-[480px] h-[360px] xl:h-[480px]"
                     />
                 </div>
             </div>
